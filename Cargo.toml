@@ -1,0 +1,24 @@
+[package]
+name = "art3mis"
+version = "0.1.0"
+edition = "2018"
+
+# Specify your binary targets
+[[bin]]
+name = "Art3misRAT"
+path = "src/art3mis_rat.rs"
+
+[[bin]]
+name = "Art3misServer"
+path = "src/art3mis_server.rs"
+
+[dependencies]
+aes = "0.7"
+ctr = "0.8"
+hex = "0.4"
+
+
+block-modes = "0.8.1"
+rand = "0.8"
+base64 = "0.13"
+winapi = { version = "0.3", features = ["consoleapi"] }
