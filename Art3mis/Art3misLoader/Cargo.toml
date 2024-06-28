@@ -1,0 +1,16 @@
+[package]
+name = "art3misloader"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+aes = "0.7.5"
+ctr = "0.7.0"
+base64 = "0.13.0"
+sha2 = "0.9.8"
+
+[build-dependencies]
+
+[[bin]]
+name = "art3misloader"
+path = "src/main.rs"
