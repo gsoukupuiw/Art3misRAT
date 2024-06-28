@@ -1,8 +1,8 @@
-Art3misRAT
+# Art3misRAT
 
 Art3misRAT is a Remote Access Trojan (RAT) designed for Windows environments and written in Rust.
 
-Features:
+## Features:
 
 PowerShell Execution: Executes PowerShell commands with the ability to return the output to the server.
 
@@ -12,7 +12,7 @@ AES-256 Encryption: Encrypts all communications between the RAT and the command-
 
 Environment Awareness: Detects if running in a virtualized environment and exits if so, to prevent analysis.
 
-Design
+## Design
 
 Art3misRAT consists of two main components:
 
@@ -31,7 +31,7 @@ Listens on a specified port for incoming connections.
 Sends encrypted commands to the connected clients.
 Receives and decrypts the responses from the clients.
     
-Commands
+## Commands
 
 !!kill: Terminates the RAT process.
 
@@ -48,6 +48,6 @@ Example:
     !!ps Get-Process
 
 
-Discalimer
+## Discalimer
 
 This software is provided for educational and research purposes only. The developers are not responsible for any misuse or damage caused by this software. Use it responsibly and legally.
