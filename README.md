@@ -28,10 +28,17 @@ Sends encrypted commands to the connected clients.
 Receives and decrypts the responses from the clients.
     
 Commands
+
 !!kill: Terminates the RAT process.
+
 Example:
+
     !!kill
+    
 !!powershell or !!ps: Executes a PowerShell command.
+
 Example: 
-!!powershell Get-Process
-!!ps Get-Process
+
+    !!powershell Get-Process
+
+    !!ps Get-Process
