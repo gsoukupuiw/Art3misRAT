@@ -8,9 +8,6 @@ edition = "2018"
 name = "Art3misRAT"
 path = "src/art3mis_rat.rs"
 
-[[bin]]
-name = "Art3misServer"
-path = "src/art3mis_server.rs"
 
 [dependencies]
 
