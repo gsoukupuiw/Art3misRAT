@@ -12,6 +12,10 @@ AES-256 Encryption: Encrypts all communications between the RAT and the command-
 
 Environment Awareness: Detects if running in a virtualized environment and exits if so, to prevent analysis.
 
+## v1.1.0 Update: Encrypted Delivery via Loader for Dynamic Code at Runtime
+
+Dynamic Code Loading: The RAT payload is stored in encrypted form and only decrypted at runtime, preventing static analysis and signature-based detection.
+
 ## Design
 
 Art3misRAT consists of two main components:
