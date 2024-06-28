@@ -3,10 +3,6 @@ name = "art3mis"
 version = "0.1.0"
 edition = "2018"
 
-# Specify your binary targets
-[[bin]]
-name = "Art3misRAT"
-path = "src/art3mis_rat.rs"
 
 [[bin]]
 name = "Art3misServer"
