@@ -47,6 +47,12 @@ Example:
 
     !!ps Get-Process
 
+## Delivery
+
+The Art3misRAT executable was embedded into the Art3misRATDeliveryDemo.docm document using the RATEncoder script to demonstrate potential delivery methods.
+Check out my other repo RATEncoder to reliably embed Art3misRAT and other executable payloads into Microsoft Word Documents.
+
+RATEncoder (https://github.com/gsoukupuiw/RAT_Encoder)
 
 ## Discalimer
 
